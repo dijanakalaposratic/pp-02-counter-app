@@ -84,12 +84,12 @@ body {
 	background: var(--color-4);
 }
 
-#btn-save {
-	background: var(--color-5);
-}
-
 #btn-reset {
 	background: var(--color-2);
+}
+
+#btn-save {
+	background: var(--color-5);
 }
 
 .app__saves {
