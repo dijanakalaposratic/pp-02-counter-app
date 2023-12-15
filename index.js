@@ -6,3 +6,8 @@ function increment() {
 	count++;
 	display.textContent = count;
 }
+
+function decrement() {
+	count--;
+	display.textContent = count;
+}
