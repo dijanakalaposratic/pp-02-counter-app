@@ -4,31 +4,31 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Passenger counter</title>
-		<!-- CSS -->
-		<link rel="stylesheet" href="styles.css" />
+		<title>Counter App</title>
 		<!-- font-family: 'Roboto', sans-serif; -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="styles.css" />
+		<!-- JS -->
+		<script defer src="./index.js"></script>
 	</head>
 
 	<body>
-		<div class="counter">
-			<h1 class="counter__title">Passenger counter</h1>
-			<h2 class="counter__count" id="count">0</h2>
+		<div class="app">
+			<h1 class="app__title">Counter</h1>
+			<h2 class="app__display" id="display">0</h2>
 
-			<button class="counter__btn" id="increment-btn">INCREMENT</button>
+			<button class="app__btn" id="btn-increment">INCREMENT</button>
 
-			<button class="counter__btn" id="decrement-btn">DECREMENT</button>
+			<button class="app__btn" id="btn-decrement">DECREMENT</button>
 
-			<button class="counter__btn" id="save-btn">SAVE</button>
+			<button class="app__btn" id="btn-save">SAVE</button>
 
-			<button class="counter__btn" id="reset-btn">RESET</button>
+			<button class="app__btn" id="btn-reset">RESET</button>
 
-			<p class="counter__previous-entries" id="previous-entries">Previous entries:</p>
+			<p class="app__saves" id="saves">Previous entries:</p>
 		</div>
-
-		<script src="index.js"></script>
 	</body>
 </html>
