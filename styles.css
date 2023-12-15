@@ -91,3 +91,8 @@ body {
 #btn-reset {
 	background: var(--color-2);
 }
+
+.app__saves {
+	height: 100px;
+	/* Ovo cu moram da promenim u odnosu na broj sacuvanih podataka kad budem radila javascript */
+}
