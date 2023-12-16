@@ -33,3 +33,9 @@ function save() {
 		document.getElementById("btn-save").disabled = false;
 	}
 }
+
+function allClear() {
+	reset();
+	saves.textContent = `Previous entries:`;
+	document.getElementById("btn-save").disabled = false;
+}
