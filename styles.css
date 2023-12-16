@@ -98,7 +98,6 @@ body {
 
 .app__saves {
 	height: 200px;
-	/* Ovo cu moram da promenim u odnosu na broj sacuvanih podataka kad budem radila javascript */
 	text-align: justify;
 	max-width: 260px;
 }
