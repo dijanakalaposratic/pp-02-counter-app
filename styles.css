@@ -92,7 +92,13 @@ body {
 	background: var(--color-5);
 }
 
+#btn-ac {
+	background: var(--color-3);
+}
+
 .app__saves {
-	height: 100px;
+	height: 200px;
 	/* Ovo cu moram da promenim u odnosu na broj sacuvanih podataka kad budem radila javascript */
+	text-align: justify;
+	max-width: 260px;
 }
